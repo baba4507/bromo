@@ -1,0 +1,17 @@
+﻿  ConsoleApplication4.cpp
+C:\Users\BABA\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(18,22): error C2664: 'int _stricmp(const char *,const char *)' : 1 bağımsız değişkeni 'WCHAR [260]' değerinden 'const char *' değerine dönüştürülemez
+      C:\Users\BABA\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(18,40):
+      İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya parantez içine alınmış işlev stili tür dönüştürme gerektiriyor
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(189,22):
+      '_stricmp' bildirimine bakın
+      C:\Users\BABA\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(18,22):
+      '(WCHAR [260], const char *)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\BABA\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(38,22): error C2664: 'int _stricmp(const char *,const char *)' : 1 bağımsız değişkeni 'WCHAR [256]' değerinden 'const char *' değerine dönüştürülemez
+      C:\Users\BABA\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(38,39):
+      İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya parantez içine alınmış işlev stili tür dönüştürme gerektiriyor
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(189,22):
+      '_stricmp' bildirimine bakın
+      C:\Users\BABA\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(38,22):
+      '(WCHAR [256], const char *)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
